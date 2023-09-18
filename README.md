@@ -11,9 +11,9 @@ If you want to handle image support, it gets weird, because neofetch runs depend
 
 Without sudo means no installing which means no images :(
 
-So I built from source the dependencies I needed (ImageMagick, icat and Iterm2-imgcat).
-Imagemagick is just the official Imagemagick gcc AppImage, I renamed it to convert for it to be used in neofeth.
-icat is built from the official repo link below.
+So I built from source the dependencies I needed (ImageMagick, icat and Iterm2-imgcat). <br>
+Imagemagick is just the official Imagemagick gcc AppImage, I renamed it to convert for it to be used in neofeth. <br>
+icat is built from the official repo link below. <br>
 imgcat is a bash script found on the official iterm2 website.
 
 All I did was patch in these built files into the neofetch bash script and called it a day.
